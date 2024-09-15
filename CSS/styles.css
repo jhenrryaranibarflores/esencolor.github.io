@@ -4,7 +4,5 @@
 @import url(nosotros.css);
 
 body {
-    body {
-        background-image: url("../IMAGE/");
+        background-image: url("../IMAGE/FONDOTEXTURA.png");
     }
-}
