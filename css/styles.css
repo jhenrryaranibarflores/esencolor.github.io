@@ -1,0 +1,13 @@
+@import url(brand.css);
+@import url(header.css);
+@import url(footer.css);
+@import url(footer.css);
+@import url(blog.css);
+@import url(index.css);
+@import url(servicios.css);
+@import url(nosotros.css);
+
+
+body {
+    background-image: url("../image/F\ V.png");
+}

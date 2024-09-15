@@ -1,0 +1,424 @@
+@import url(styles.css);
+
+.habitos_titulo h3 {
+    text-align: center;
+    color: var(--colorverde);
+    padding-bottom: 50px;
+}
+
+.habito_foto  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 100%;
+   
+}
+
+.habito_texto {
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    align-items: center;
+    justify-content: center;
+    
+    & h5 {
+        text-align: center;
+        color: var(--colorazul);
+        background-color: var(--colorverdeagua);
+        width:520px ;
+        height: 40px;
+        padding: 5px;
+    }
+
+    & p {
+        text-align: none;
+        width: 430px;
+        
+    }
+}
+
+.recetarios_titulo h3 {
+    text-align: center;
+    color: var(--colorverde);
+    padding-bottom: 50px;
+}
+
+.recetario_texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+    & h5 {
+        text-align: center;
+        color: var(--colorazul);
+        background-color: var(--colorverdeagua);
+        width:360px ;
+        height: 40px;
+        padding: 5px;
+    }
+
+    & li {
+        width: 360px; 
+    }
+
+}
+
+.recetario_foto  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 100%;
+   
+    
+}
+
+.instrucción_texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+    & h5 {
+        text-align: center;
+        color: var(--colorazul);
+        background-color: var(--colorverdeagua);
+        width:360px ;
+        height: 40px;
+        padding: 5px;
+    }
+
+    & h6 {
+        text-align: none;
+        width:360px ;
+        height: 40px;
+        padding: 5px;
+    } 
+    
+
+    & li {
+        width: 370px;
+        list-style: square inside;
+        
+    }
+
+}
+
+.beneficio_texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+    & h5 {
+        text-align: center;
+        color: var(--colorazul);
+        background-color: var(--colorverdeagua);
+        width:590px ;
+        height: 40px;
+        padding: 5px;
+    }
+
+    & li {
+        width: 500px; 
+    }
+
+}
+
+.instrucción_foto  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 100%;
+   
+}
+
+@media (max-width: 1023px) {
+    .habitos_titulo h3 {
+        text-align: center;
+        color: var(--colorverde);
+        padding-bottom: 50px;
+    }
+    
+    .habito_foto  {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 100%;
+       
+    }
+    
+    .habito_texto {
+        display: flex;
+        flex-direction: column;
+        gap: 42px;
+        align-items: center;
+        justify-content: center;
+        
+        & h5 {
+            text-align: center;
+            color: var(--colorazul);
+            background-color: var(--colorverdeagua);
+            width:520px ;
+            height: 40px;
+            padding: 5px;
+        }
+    
+        & p {
+            text-align: none;
+            width: 430px;
+            
+        }
+    }
+    
+    .recetarios_titulo h3 {
+        text-align: center;
+        color: var(--colorverde);
+        padding-bottom: 50px;
+    }
+    
+    .recetario_texto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        
+        & h5 {
+            text-align: center;
+            color: var(--colorazul);
+            background-color: var(--colorverdeagua);
+            width:360px ;
+            height: 40px;
+            padding: 5px;
+        }
+    
+        & li {
+            width: 360px; 
+        }
+    
+    }
+    
+    .recetario_foto  {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 100%;
+       
+        
+    }
+    
+    .instrucción_texto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        
+        & h5 {
+            text-align: center;
+            color: var(--colorazul);
+            background-color: var(--colorverdeagua);
+            width:360px ;
+            height: 40px;
+            padding: 5px;
+        }
+    
+        & h6 {
+            text-align: none;
+            width:360px ;
+            height: 40px;
+            padding: 5px;
+        } 
+        
+    
+        & li {
+            width: 370px;
+            list-style: square inside;
+            
+        }
+    
+    }
+    
+    .beneficio_texto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        
+        & h5 {
+            text-align: center;
+            color: var(--colorazul);
+            background-color: var(--colorverdeagua);
+            width:590px ;
+            height: 40px;
+            padding: 5px;
+        }
+    
+        & li {
+            width: 500px; 
+        }
+    
+    }
+    
+    .instrucción_foto  {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 100%;
+       
+    }
+
+}
+
+@media (max-width: 767px) {
+    .habitos_titulo h3 {
+        text-align: center;
+        color: var(--colorverde);
+        padding-bottom: 50px;
+    }
+    
+    .habito_foto  {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 100%;
+       
+    }
+    
+    .habito_texto {
+        display: flex;
+        flex-direction: column;
+        gap: 42px;
+        align-items: center;
+        justify-content: center;
+        
+        & h5 {
+            text-align: center;
+            color: var(--colorazul);
+            background-color: var(--colorverdeagua);
+            width:520px ;
+            height: 40px;
+            padding: 5px;
+        }
+    
+        & p {
+            text-align: none;
+            width: 430px;
+            
+        }
+    }
+    
+    .recetarios_titulo h3 {
+        text-align: center;
+        color: var(--colorverde);
+        padding-bottom: 50px;
+    }
+    
+    .recetario_texto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        
+        & h5 {
+            text-align: center;
+            color: var(--colorazul);
+            background-color: var(--colorverdeagua);
+            width:360px ;
+            height: 40px;
+            padding: 5px;
+        }
+    
+        & li {
+            width: 360px; 
+        }
+    
+    }
+    
+    .recetario_foto  {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 100%;
+       
+        
+    }
+    
+    .instrucción_texto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        
+        & h5 {
+            text-align: center;
+            color: var(--colorazul);
+            background-color: var(--colorverdeagua);
+            width:360px ;
+            height: 40px;
+            padding: 5px;
+        }
+    
+        & h6 {
+            text-align: none;
+            width:360px ;
+            height: 40px;
+            padding: 5px;
+        } 
+        
+    
+        & li {
+            width: 370px;
+            list-style: square inside;
+            
+        }
+    
+    }
+    
+    .beneficio_texto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        
+        & h5 {
+            text-align: center;
+            color: var(--colorazul);
+            background-color: var(--colorverdeagua);
+            width:590px ;
+            height: 40px;
+            padding: 5px;
+        }
+    
+        & li {
+            width: 500px; 
+        }
+    
+    }
+    
+    .instrucción_foto  {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 100%;
+       
+    }
+
+}
