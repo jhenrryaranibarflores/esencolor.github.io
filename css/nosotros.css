@@ -1,0 +1,35 @@
+@import url(styles.css);
+
+.nosotros_titulo h1 {
+    text-align: center;
+    color: var(--colorverde);
+    padding-bottom: 50px;
+    padding: 50px;
+} 
+
+.nosotro_texto {
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    align-items: center;
+
+    & h3 {
+        text-align: center;
+        color: var(--colorazul);
+        width: 520px;
+        height: 40px;
+    }
+
+    & p {
+        text-align: none;
+        width: 430px;
+    }
+}
+
+.nosotro_foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}

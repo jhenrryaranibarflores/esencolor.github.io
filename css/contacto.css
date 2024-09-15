@@ -1,0 +1,79 @@
+@import url(styles.css);
+
+#portada_contacto {
+    background-image: url("../image/2148259072\ \(1\).jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.portada_contacto {
+    height: calc(100vh - 91px);
+    align-items: center;
+}
+
+.listas_datos_textos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+
+    & h6 {
+        color: var(--colorazuloscuro);
+    }
+}
+
+.lista_datos_texto {
+    display: flex;
+    flex-direction: column;
+
+    & h6 {
+        color: var(--colorazuloscuro);
+    }
+}
+
+.listas_datos {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-top: 50px;
+}
+
+.listas_datos_1 {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+
+.listas_datos_imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    background-color: var(--colorblanco);
+    border-radius: 10px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+}
+
+.formulario_input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.grupos_input {
+    width: 100%;
+}
+
+.grupos_input input,
+textarea {
+    width: 100%;
+    padding: 5px 10px;
+}
