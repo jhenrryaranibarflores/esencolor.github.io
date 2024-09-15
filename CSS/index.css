@@ -1,0 +1,193 @@
+@import url(styles.css);
+
+
+#portada {
+    background-image: url("../IMAGE/FONDO_ed-01.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.portada {
+    height: 704px;
+}
+
+.texto_portada {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    text-align: center;
+    margin: 400px auto;
+
+}
+
+.textos_portada {
+    display: flex;
+    flex-direction: center;
+    gap: 25px;
+    justify-content: center;
+
+    & h1 {
+        color: var(--colorblanco);
+    }
+
+}
+
+#portada2 {
+    background-image: url("../IMAGE/FONDO_ed-01.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.portada2 {
+    height: 860px;
+    display: center;
+    gap: 800px;
+    justify-content: center;
+}
+
+.boton_portada2 {
+    height: 100%;
+    margin-top: 550px;
+
+}
+
+.portada3 {
+    height: 45vh;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+/*.servicio {
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+
+    & .foto_servicio {
+        width: 100%;
+        height: auto;
+
+    }
+
+    & .boton_servicio {
+        position: absolute;
+        bottom: 0%;
+        left: 20%;
+        padding: 25px;
+    }
+
+}*/
+
+.galeria_titulo h3 {
+    text-align: center;
+    color: var(--colorblanco);
+    padding-bottom: 10px;
+    position: center;
+}
+
+.galeria {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    & h2 {
+        background-color: var(--colorfondo);
+        color: var(--colorblanco);
+        border-radius: 20px 0px;
+    }
+
+    & p {
+        align-items: start;
+        position: absolute;
+        width: 500px;
+        margin: 200px auto;
+    }
+
+    .galeria_foto img {
+        width: auto;
+        height: 250px;
+        border-radius: 5px;
+    }
+
+}
+
+.testimonios_titulo h3 {
+    text-align: flex;
+    color: var(--colorblanco);
+    padding-bottom: 60px;
+
+}
+
+.testimonios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.testimoios_foto img {
+    width: 100%;
+    height: auto;
+}
+
+/* Modificaciones a las propiedades que solo se ven afectados cuando ingresan desde el celular */
+
+
+@media (max-width: 767px) {
+
+    /* modificar tamaño de imagen de la portada */
+    .foto_portada {
+        width: auto;
+        height: 50%;
+    }
+
+    /* modificar alineación de textos */
+    .texto_portada {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        align-items: center;
+
+        & h1 {
+            color: var(--colorblanco);
+            text-align: center;
+        }
+
+        & p {
+            text-align: center;
+        }
+    }
+
+    /* modifica el tamaño de la imagen de servicios 
+    .servicio_foto {
+        width: 75%;
+        height: auto;
+    }*/
+
+
+    /* modifica el tamaño de la imagen de testimonios y alineado el contneido al centro */
+    .testimonio {
+        align-items: center;
+        gap: 25px;
+
+        & h5 {
+            text-transform: none;
+        }
+
+        & p {
+            text-align: center;
+        }
+    }
+
+
+    /* modifica el tamaño de la imagen de testimonios */
+    .testimonio_foto {
+        width: 75%;
+        height: auto;
+    }
+}
