@@ -4,5 +4,5 @@
 @import url(nosotros.css);
 
 body {
-        background-image: url("../IMAGE/FONDOTEXTURA.png");
+        background-image:var(--colorfondo);
     }
