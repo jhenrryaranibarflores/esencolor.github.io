@@ -1,8 +1,0 @@
-@import url(brand.css);
-@import url(header.css);
-@import url(footer.css);
-@import url(nosotros.css);
-
-body {
-        background-color:var(--colorfondo);
-    }
