@@ -4,5 +4,5 @@
 @import url(nosotros.css);
 
 body {
-        background-image:var(--colorfondo);
+        background-color:var(--colorfondo);
     }
